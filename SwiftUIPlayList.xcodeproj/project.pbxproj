@@ -13,6 +13,7 @@
 		95DBF1E124AA07A80009DD0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DBF1E024AA07A80009DD0A /* Preview Assets.xcassets */; };
 		95DBF1EA24AA07E30009DD0A /* CountingCharsInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */; };
 		95DBF1EC24AA0BF30009DD0A /* PlanetOrbitGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBF1EB24AA0BF30009DD0A /* PlanetOrbitGeometryEffect.swift */; };
+		95DBF1EE24AA15FF0009DD0A /* ShakeGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBF1ED24AA15FF0009DD0A /* ShakeGeometryEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95DBF1E224AA07A80009DD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingCharsInTextField.swift; sourceTree = "<group>"; };
 		95DBF1EB24AA0BF30009DD0A /* PlanetOrbitGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOrbitGeometryEffect.swift; sourceTree = "<group>"; };
+		95DBF1ED24AA15FF0009DD0A /* ShakeGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGeometryEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */,
 				95DBF1EB24AA0BF30009DD0A /* PlanetOrbitGeometryEffect.swift */,
+				95DBF1ED24AA15FF0009DD0A /* ShakeGeometryEffect.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DBF1EE24AA15FF0009DD0A /* ShakeGeometryEffect.swift in Sources */,
 				95DBF1EA24AA07E30009DD0A /* CountingCharsInTextField.swift in Sources */,
 				95DBF1DC24AA07A60009DD0A /* ContentView.swift in Sources */,
 				95DBF1DA24AA07A60009DD0A /* SwiftUIPlayListApp.swift in Sources */,
