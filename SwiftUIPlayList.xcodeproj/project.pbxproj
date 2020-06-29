@@ -11,6 +11,7 @@
 		95DBF1DC24AA07A60009DD0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBF1DB24AA07A60009DD0A /* ContentView.swift */; };
 		95DBF1DE24AA07A80009DD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DBF1DD24AA07A80009DD0A /* Assets.xcassets */; };
 		95DBF1E124AA07A80009DD0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DBF1E024AA07A80009DD0A /* Preview Assets.xcassets */; };
+		95DBF1EA24AA07E30009DD0A /* CountingCharsInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95DBF1DD24AA07A80009DD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95DBF1E024AA07A80009DD0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95DBF1E224AA07A80009DD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingCharsInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		95DBF1D824AA07A60009DD0A /* SwiftUIPlayList */ = {
 			isa = PBXGroup;
 			children = (
+				95DBF1E824AA07B10009DD0A /* SubViews */,
 				95DBF1D924AA07A60009DD0A /* SwiftUIPlayListApp.swift */,
 				95DBF1DB24AA07A60009DD0A /* ContentView.swift */,
 				95DBF1DD24AA07A80009DD0A /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				95DBF1E024AA07A80009DD0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95DBF1E824AA07B10009DD0A /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95DBF1E924AA07E30009DD0A /* CountingCharsInTextField.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DBF1EA24AA07E30009DD0A /* CountingCharsInTextField.swift in Sources */,
 				95DBF1DC24AA07A60009DD0A /* ContentView.swift in Sources */,
 				95DBF1DA24AA07A60009DD0A /* SwiftUIPlayListApp.swift in Sources */,
 			);
