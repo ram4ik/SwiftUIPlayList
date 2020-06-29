@@ -13,7 +13,9 @@ struct ContentView: View {
         //PlanetOrbitGeometryEffect()
         //ShakeGeometryEffect()
         
-        CreateHyperLinks()
+        //CreateHyperLinks()
+        
+        ExpandableRows()
     }
 }
 
